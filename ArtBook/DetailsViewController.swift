@@ -85,7 +85,7 @@ class DetailsViewController: UIViewController, PHPickerViewControllerDelegate {
     }
 
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
-        saveButton.isEnabled = trueg
+        saveButton.isEnabled = true
         picker.dismiss(animated: true, completion: nil)
         
         let selectedResult = results.first
